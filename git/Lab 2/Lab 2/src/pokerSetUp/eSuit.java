@@ -1,18 +1,14 @@
 package pokerSetUp;
 
 public enum eSuit {
-	HEARTS(1),
-	DIAMONDS(2),
-	CLUBS(3),
-	SPADES(4);
+	// enum values
+	DIAMONDS(1), HEARTS(2), CLUBS(3), SPADES(4);
 	
+	// Attributes
 	private int suit;
 	
-	// Constructor & getter
-	private eSuit(final int suit) {
+	// Constructor 
+	private eSuit(int suit) {
 		this.suit = suit;
-	}
-	public int getSuit() {
-		return this.suit;
 	}
 }

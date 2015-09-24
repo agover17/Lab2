@@ -1,11 +1,11 @@
 package pokerSetUp;
 
 public class Card {
-
-	// Private values of class.
+	
+	// Attributes 
 	private eRank rank;
 	private eSuit suit;
-
+	
 	// Getters
 	public eRank getRank() {
 		return this.rank;
@@ -13,7 +13,7 @@ public class Card {
 	public eSuit getSuit() {
 		return this.suit;
 	}
-
+	
 	// Constructor
 	public Card(eRank rank, eSuit suit) {
 		this.rank = rank;

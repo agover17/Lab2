@@ -8,7 +8,7 @@ public enum eSuit {
 	private int suit;
 	
 	// Constructor 
-	private eSuit(int suit) {
+	public eSuit(int suit) {
 		this.suit = suit;
 	}
 }

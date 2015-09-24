@@ -7,15 +7,15 @@ public class Card {
 	private eSuit suit;
 	
 	// Getters
-	public eRank getRank() {
+	private eRank getRank() {
 		return this.rank;
 	}
-	public eSuit getSuit() {
+	private eSuit getSuit() {
 		return this.suit;
 	}
 	
 	// Constructor
-	public Card(eRank rank, eSuit suit) {
+	public Card(eSuit suit, eRank rank) {
 		this.rank = rank;
 		this.suit = suit;
 	}

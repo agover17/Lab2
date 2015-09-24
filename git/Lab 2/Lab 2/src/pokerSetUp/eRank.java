@@ -10,7 +10,7 @@ public enum eRank {
 	private int rank;
 	
 	// Constructor
-	private eRank(int rank) {
+	public eRank(int rank) {
 		this.rank = rank;
 	}
 }

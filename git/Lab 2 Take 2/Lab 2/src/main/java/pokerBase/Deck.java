@@ -46,6 +46,7 @@ public class Deck {
 		ShuffleCards();
 	}
 	
+	/*
 	public Deck(int NbrOfJokers, ArrayList<Card> WildCards) {
 
 		this(NbrOfJokers);
@@ -64,6 +65,7 @@ public class Deck {
 		}
 		ShuffleCards();
 	}
+	*/
 	
 	private void ShuffleCards()
 	{

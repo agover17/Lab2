@@ -12,10 +12,13 @@ public final class Card {
 	private eSuit Suit;
 	@XmlElement
 	private eRank Rank;
+	
+	/*
 	@XmlElement
 	private boolean Wild = false;
 	@XmlElement
 	private String CardImg;
+	*/
 	
 	
 	/**
@@ -33,15 +36,19 @@ public final class Card {
 	public Card(eSuit suit, eRank rank, int CardNbr ) {
 		Suit = suit; 
 		Rank = rank; 
+		
+		/*
 		this.Wild = false;
 		this.CardImg = CardNbr + ".png";
+		*/
 		
 	}
 
 	public Card(eSuit suit, eRank rank, boolean Wild) {
 		Suit = suit; 
 		Rank = rank; 
-		this.Wild = Wild;
+		
+		// this.Wild = Wild;
 	}
 	
 	/**
@@ -60,6 +67,7 @@ public final class Card {
 		return this.Suit;
 	}
 	
+	/*
 	public boolean getWild()
 	{
 		return this.Wild;
@@ -74,6 +82,7 @@ public final class Card {
 	{
 		return this.CardImg;
 	}
+	*/
 
 	/**
 	 * CardRank Comparator is used for sorting the collection by rank
